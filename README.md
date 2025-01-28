@@ -21,22 +21,6 @@ The script performs the following tasks:
 - Fetches concurrent user data from SteamCharts.
 - Plots the Steam review and concurrent user trends over time.
 
-## Installation
-
-To run this parser, you will need the following Python libraries:
-
-- `requests`
-- `pandas`
-- `matplotlib`
-- `beautifulsoup4`
-- `seaborn`
-
-You can install these libraries using pip:
-
-```bash
-pip install requests pandas matplotlib beautifulsoup4 seaborn
-```
-
 ## Usage
 
 ### Running in Google Colab
@@ -56,6 +40,22 @@ Example:
 game_id = 000000  # Steam Store ID of game to track
 months_range = 6  # Track data for the last 6 months
 smooth = True  # Apply smoothing to the time-series data
+
+## Local Installation
+
+To run this parser, you will need the following Python libraries:
+
+- `requests`
+- `pandas`
+- `matplotlib`
+- `beautifulsoup4`
+- `seaborn`
+
+You can install these libraries using pip:
+
+```bash
+pip install requests pandas matplotlib beautifulsoup4 seaborn
+```
 
 ### License
 
