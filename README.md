@@ -33,12 +33,17 @@ You can quickly run this script in Google Colab. Follow these steps:
 ### Parameters
 
 game_id: The Steam Store ID of the game to track (e.g., 1091500).
+
 months_range: The number of months from the release date to track (e.g., 0 for all-time data, 6 for the last 6 months).
+
 smooth: Set to True to apply a rolling mean to smooth the time-series data, or False to use raw data.
-Example:
+
+### Example:
 
 game_id = 000000  # Steam Store ID of game to track
+
 months_range = 6  # Track data for the last 6 months
+
 smooth = True  # Apply smoothing to the time-series data
 
 ## Local Installation
