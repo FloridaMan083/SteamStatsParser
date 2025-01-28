@@ -1,4 +1,4 @@
-# SteamStat Parser: Steam Review and Concurrent User Data Visualization
+# SteamStat Parser: Steam Review and Concurrent User Data Visualization 
 
 This script fetches Steam game review and concurrent user data using Steam's public APIs and plots time-series graphs to visualize trends. The graphs display review scores over time and concurrent users based on a specified game ID.
 
