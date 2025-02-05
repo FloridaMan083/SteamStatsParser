@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: SteamStatsParser
+message: >-
+  If you use this software, please cite it as below.
+type: software
+authors:
+  - family-names: Unknown
+    given-names: FloridaMan083
+    name-suffix: Developer
+repository-code: 'https://github.com/FloridaMan083/SteamStatsParser'
+url: 'https://github.com/FloridaMan083/SteamStatsParser'
+abstract: >-
+  A Python script that fetches Steam game review and concurrent user data 
+  using Steam's public APIs and plots time-series graphs to visualize trends.
+keywords:
+  - steam
+  - data-visualization
+  - python
+  - game-statistics
+  - steam-api
+license: MIT
+references:
+  - type: software
+    authors:
+      - name: Steam
+    title: Steam API
+    url: 'https://steamcommunity.com/dev'
+  - type: software
+    authors:
+      - name: SteamCharts
+    title: SteamCharts User Data API
+    url: 'https://steamcharts.com'
+dependencies:
+  - requests
+  - pandas
+  - matplotlib
+  - beautifulsoup4
+  - seaborn
+contact:
+  - email: unknown@example.com
+version: 1.0.0
+date-released: 2024-02-05
